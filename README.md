@@ -15,6 +15,7 @@ docker network connect minio_minio yourphpcontainer
 # Use docker service name in the host config
 
 * region is irrelevant
+
 ```
 FILE_SYSTEM=s3
 AWS_ACCESS_KEY_ID=minioadmin
@@ -32,5 +33,7 @@ php artisan tinker
 Storage::cloud()->put('hello.json', '{"hello": "world"}');
 ```
 # More information:
+
+install league/flysystem-aws-s3-v3 ~1.0 if you don´t already have it
 
 https://docs.min.io/docs/minio-quickstart-guide.html
