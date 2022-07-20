@@ -6,7 +6,7 @@ docker-compose up -d
 ```
 # Access panel 
 
-Access http://localhost:9001 with default access and secret key and create a bucket
+Access http://localhost:9002 with default access and secret key and create a bucket
 
 # Connect to your php container
 ```
