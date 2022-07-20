@@ -1,5 +1,5 @@
 
-# docker-compose Minio to work with laravel and AWS S3
+# Minio with Laravel and AWS S3
 ```
 mkdir data
 docker-compose up -d
