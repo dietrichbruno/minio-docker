@@ -24,6 +24,10 @@ AWS_DEFAULT_REGION=us-east-1
 AWS_BUCKET=bucket
 AWS_ENDPOINT=http://minio:9000
 ```
+in filesystems.php, in 's3' part, insert:
+
+'use_path_style_endpoint' => true,
+
 # Test with tinker
 
 Enter:
